@@ -1,0 +1,41 @@
+.post {
+  border: 1px solid #e0e0e6;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.post__title {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.post__badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #e0455f;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+
+.post__meta {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.85rem;
+  color: #6b6b76;
+}
+
+.post__preview {
+  margin: 0;
+  color: #33333d;
+  line-height: 1.4;
+}
